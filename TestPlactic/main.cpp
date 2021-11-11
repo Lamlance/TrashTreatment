@@ -1,6 +1,10 @@
-#include "TrashTreatment.h"
+#include <iostream>
+#include <Windows.h>
+#include "ChemicalTreatment.h"
 
 int main()
 {
-	Trash tr1;
+	SetConsoleOutputCP(1258);
+	TrashTreatment* ptr = new ChemicalTreatment();
+	ptr->TreatTrash(Recycle_Numer::HDPE);
 }
