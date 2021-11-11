@@ -2,26 +2,34 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <exception>
 
-std::string ChemicalTreatment::getLine_data(const char lineData[])
+std::string ChemicalTreatment::getLine_data(const char lineData[], Recycle_Numer number)
 {
 	std::string ans("");
 	std::string buffer;
 	std::stringstream ss(lineData);
-	while (!ss.eof())
+
+	std::getline(ss, buffer, ',');
+	ans += buffer +": ";// Ten chat
+	std::getline(ss, buffer, ',');
+	ans += buffer;// Chi tiet chat
+	ans += "\n"; // cho dep :))
+
+	while (!ss.eof() && buffer.compare("") != 0)
 	{
 		std::getline(ss, buffer, ',');
-		ans += buffer;
-		std::getline(ss, buffer, ',');
-		ans += buffer;
-
-		do
+		try
 		{
-			std::getline(ss, buffer, ',');
-			ans += buffer;
-		} while (!ss.eof() && buffer.compare("") != 0);
-	}
-	return ans.c_str();
+			if (std::stoi(buffer) == int(number))
+			{
+				return ans;
+			}
+		}
+		catch (const std::exception&) { continue; }
+	} 
+
+	return "";
 }
 
 void ChemicalTreatment::TreatTrash(Recycle_Numer number)
@@ -40,8 +48,10 @@ void ChemicalTreatment::TreatTrash(Recycle_Numer number)
 	while (!fo.eof())
 	{
 		std::getline(fo,buffer);
-		str += this->getLine_data(buffer.c_str() ) + "\n";
+		str += this->getLine_data(buffer.c_str(),number) ;
 	}
+
 	std::cout << str << std::endl;
+	
 	return;
 }
