@@ -7,7 +7,8 @@
 #include <string>
 #include <string.h>
 
-#define bio_filename "SinhHoc.csv"
+#define bio_filename "Biological.csv"
+#define chemical_filename "Chemical.csv"
 
 using namespace std;
 enum class TEN_NHUA : int
@@ -16,28 +17,31 @@ enum class TEN_NHUA : int
 };
 
 // is a relation + has a relation
+class TrashTreatment // class Abstract ko constructor
+{
+protected:
+	string method_name;
+	string description;
+public:
+	//virtual void TreatTrash(TEN_NHUA number);
+	~TrashTreatment() {};
+	string return_method_name() {
+		return method_name;
+	}
+};
+
 class Trash
 {
 public:
-	vector<vector<TrashTreatment>> treat;
-	void dieuKien()
-	{
-	}
-		;
-//private:
 	int weight;
 	TEN_NHUA number;
-};
-
-
-class TrashTreatment // class Abstract ko constructor
-{
-
+	vector<TrashTreatment> treat;
 public:
-	virtual void TreatTrash(TEN_NHUA number) = 0;
-	~TrashTreatment() {};
-};
+	void dieuKien() {
 
+	}
+	
+};
 
 
 class BurialTreatment: public TrashTreatment
@@ -56,9 +60,7 @@ public:
 		this->timChat();
 	};
 	void timChat() { cout << "CHAT A"; };
-private:
-	string method_name;
-	string description;
+	vector<Trash*> readChemicalTreatment();
 };
 
 
@@ -70,10 +72,9 @@ public:
 		this->timChat();
 	};
 	void timChat() { cout << "CHAT A"; };
-	vector<vector<Trash>> readBiologicalTreatment();
-private:
-	string method_name;
-	string description;
+	vector<Trash*> readBiologicalTreatment();
+	void test();
 };
+
 
 #endif // !TRASH_TREATMENT

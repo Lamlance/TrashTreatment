@@ -145,6 +145,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TrashTreatment.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Biological.csv" />
+    <None Include="..\Chemical.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

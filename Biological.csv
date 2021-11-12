@@ -1,0 +1,16 @@
+﻿Plastic number,Name,Description
+1,Ideonella sakaiensis bacteria,I.sakaiensis bacteria uses PETase and MHETase to generate energy
+1,Enzyme PETase,Incorporate with PET to make MHET 
+1,Enzyme MHETase ,Incorporate with MHET to generate glycol and terephthalic acid(easily decomposed by microorganisms or continuing to create MHET)
+1,Enzymeleaf-branch compost cutinase (LCC),Incorporate with PET to make MHET (more effective than Enzyme PETase - 33 times)
+7,Pestalotiopsis microspora,Digest PU
+1,Indianmeal moth,Digest PE
+1,Galleria mellonella,Digest PE
+7,Aspergillus tubingensis,Decompose PU
+4,Bacillus pseudofirmus (Alkalihalobacillus pseudofirmus) ,Decompose LDPE
+7,Exiguobacterium sibiricum,Eat PS
+7,Exiguobacterium undrae,Eat PS
+4,Waxworm,Eat LDPE
+7,mealworms,Decompose PS
+7,Paenarthrobacter ureafaciens (Nylon-eating bacteria),Digest Nylon 6
+4,Salipaludibacillus agaradhaerens,Decompose LDPE
