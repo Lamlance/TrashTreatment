@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-enum class Recycle_Numer : int
+enum class Recycle_Number : int
 {
 	PE = 1, HDPE, PVC, LDPE, PP, PS, Other
 };
@@ -12,7 +12,7 @@ enum class Recycle_Numer : int
 class TrashTreatment // Class Abstract ko constructor
 {
 public:
-	virtual void TreatTrash(Recycle_Numer number) = 0;
+	virtual void TreatTrash(Recycle_Number number) = 0;
 	~TrashTreatment() {};
 };
 

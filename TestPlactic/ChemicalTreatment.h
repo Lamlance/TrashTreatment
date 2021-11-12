@@ -7,9 +7,9 @@
 class ChemicalTreatment: public TrashTreatment
 {
 public:
-	void TreatTrash(Recycle_Numer number);
+	void TreatTrash(Recycle_Number number);
 private:
-	std::string getLine_data(const char lineData[], Recycle_Numer number);
+	std::string getLine_data(const char lineData[], Recycle_Number number);
 };
 
 

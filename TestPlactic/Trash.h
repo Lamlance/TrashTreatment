@@ -11,7 +11,7 @@ public:
 	TrashTreatment* treatment;
 private:
 	int weight;
-	Recycle_Numer number;
+	Recycle_Number number;
 };
 
 #endif // !TRASH_H

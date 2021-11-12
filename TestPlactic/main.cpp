@@ -6,5 +6,5 @@ int main()
 {
 	SetConsoleOutputCP(1258);
 	TrashTreatment* ptr = new ChemicalTreatment();
-	ptr->TreatTrash(Recycle_Numer::HDPE);
+	ptr->TreatTrash(Recycle_Number::HDPE);
 }
