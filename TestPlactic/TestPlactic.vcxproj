@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BiologicalTreatment.h" />
     <ClInclude Include="ChemicalTreatment.h" />
     <ClInclude Include="Trash.h" />
     <ClInclude Include="TrashTreatment.h" />
     <ClInclude Include="Trash_PET.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BiologicalTreatment.cpp" />
     <ClCompile Include="ChemicalTreatment.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Trash.cpp" />

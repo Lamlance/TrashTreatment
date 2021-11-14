@@ -6,6 +6,7 @@
 class Trash_PET: public Trash
 {
 public:
+	Trash_PET(Trash obj) :Trash(obj) {};
 	std::string getPlastic_name() { return "PET/PETE"; };
 private:
 };
