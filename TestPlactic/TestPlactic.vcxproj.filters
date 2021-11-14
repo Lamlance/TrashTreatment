@@ -13,15 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Treatment">
+      <UniqueIdentifier>{656dca3e-fa66-4b2e-b835-d745f9dbba9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trash">
+      <UniqueIdentifier>{750b4b4c-423a-4f54-89ac-5974e9067c79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChemicalTreatment.h">
+      <Filter>Source Files\Treatment</Filter>
+    </ClInclude>
+    <ClInclude Include="Trash.h">
+      <Filter>Source Files\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="Trash_PET.h">
+      <Filter>Source Files\Trash</Filter>
+    </ClInclude>
     <ClInclude Include="TrashTreatment.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Treatment</Filter>
+    </ClInclude>
+    <ClInclude Include="BiologicalTreatment.h">
+      <Filter>Source Files\Treatment</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trash.cpp">
+      <Filter>Source Files\Trash</Filter>
+    </ClCompile>
+    <ClCompile Include="ChemicalTreatment.cpp">
+      <Filter>Source Files\Treatment</Filter>
+    </ClCompile>
+    <ClCompile Include="BiologicalTreatment.cpp">
+      <Filter>Source Files\Treatment</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
