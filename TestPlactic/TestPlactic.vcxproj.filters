@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Trash">
       <UniqueIdentifier>{750b4b4c-423a-4f54-89ac-5974e9067c79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{94755be4-1bf0-4bda-9ce6-c7bd63dca3da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChemicalTreatment.h">
@@ -36,6 +39,9 @@
     <ClInclude Include="BiologicalTreatment.h">
       <Filter>Source Files\Treatment</Filter>
     </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="BiologicalTreatment.cpp">
       <Filter>Source Files\Treatment</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\GUI</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

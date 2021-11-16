@@ -35,7 +35,7 @@ std::string BiologicalTreatment::getLine_data(const char lineData[], Recycle_Num
 
 void BiologicalTreatment::TreatTrash(Recycle_Number number)
 {
-	std::ifstream fo("../Databases/SinhHoc.csv");
+	std::ifstream fo("../Databases/Biological.csv");
 	std::string str;
 	std::string buffer;
 

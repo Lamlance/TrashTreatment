@@ -4,6 +4,7 @@
 #include <sstream>
 #include <exception>
 
+
 std::string ChemicalTreatment::getLine_data(const char lineData[], Recycle_Number number)
 {
 	std::string ans("");
@@ -34,7 +35,7 @@ std::string ChemicalTreatment::getLine_data(const char lineData[], Recycle_Numbe
 
 void ChemicalTreatment::TreatTrash(Recycle_Number number)
 {
-	std::ifstream fo("../Databases/HoaHoc.csv");
+	std::ifstream fo("../Databases/Chemical.csv");
 	std::string str;
 	std::string buffer;
 

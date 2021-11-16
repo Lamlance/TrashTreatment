@@ -6,7 +6,7 @@
 
 enum class Recycle_Number : int
 {
-	PET = 1, HDPE, PVC, LDPE, PP, PS, Other
+	PET = 1, HDPE = 2, PVC = 3, LDPE = 4, PP = 5, PS = 6, Other = 7
 };
 
 class TrashTreatment // Class Abstract ko constructor

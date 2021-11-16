@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="BiologicalTreatment.h" />
     <ClInclude Include="ChemicalTreatment.h" />
+    <ClInclude Include="GUI.h" />
     <ClInclude Include="Trash.h" />
     <ClInclude Include="TrashTreatment.h" />
     <ClInclude Include="Trash_PET.h" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="BiologicalTreatment.cpp" />
     <ClCompile Include="ChemicalTreatment.cpp" />
+    <ClCompile Include="GUI.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Trash.cpp" />
   </ItemGroup>
