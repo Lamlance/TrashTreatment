@@ -122,5 +122,6 @@ void option() {
         trash = new Trash(option, 0);
         trash->treatTrash();
         std::cout << "Any other plastic type: ";
+        delete trash;
     } while (true);
 }
