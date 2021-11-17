@@ -1,4 +1,4 @@
-﻿#include "Trash.h"
+﻿#include "PlasticTrash.h"
 #include "GUI.h"
 void cls(HANDLE hConsole);
 void print_tittle(HANDLE h);

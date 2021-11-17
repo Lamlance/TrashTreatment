@@ -1,6 +1,6 @@
 #pragma once
-#ifndef TRASH_H
-#define TRASH_H
+#ifndef PLASTIC_TRASH_H
+#define PLASTIC_TRASH_H
 #include "TrashTreatment.h"
 #include "BiologicalTreatment.h"
 #include "ChemicalTreatment.h"

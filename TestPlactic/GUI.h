@@ -5,7 +5,7 @@
 #include <codecvt>
 #include <Windows.h>
 #include <iostream>
-#include "Trash.h"
+#include "PlasticTrash.h"
 
 void cls(HANDLE hConsole);
 void print_tittle(HANDLE h);

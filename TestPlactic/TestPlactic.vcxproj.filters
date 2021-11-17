@@ -27,7 +27,7 @@
     <ClInclude Include="ChemicalTreatment.h">
       <Filter>Source Files\Treatment</Filter>
     </ClInclude>
-    <ClInclude Include="Trash.h">
+    <ClInclude Include="PlasticTrash.h">
       <Filter>Source Files\Trash</Filter>
     </ClInclude>
     <ClInclude Include="TrashTreatment.h">
