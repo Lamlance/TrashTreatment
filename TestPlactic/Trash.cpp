@@ -1,8 +1,8 @@
 #include "Trash.h"
-Trash::Trash(int recycleNumber, int weightVal) :
+PlasticTrash::PlasticTrash(int recycleNumber, int weightVal) :
 	number(static_cast<Recycle_Number>(recycleNumber)), weight(weightVal), treatment(nullptr) {};
 
-void Trash::treatTrash()
+void PlasticTrash::treatTrash()
 {
 	TreatmentType type = TreatmentType::ChemTreatment;
 	int cmd = 1;

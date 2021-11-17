@@ -11,10 +11,10 @@ enum class TreatmentType: int
 	ChemTreatment = 1,BioTreatment 
 };
 
-class Trash
+class PlasticTrash
 {
 public:
-	Trash(int recycleNumber = 7, int weightVal = 0);
+	PlasticTrash(int recycleNumber = 7, int weightVal = 0);
 	virtual std::string getPlastic_name() { return "YOU:))"; };
 	void treatTrash();
 private:

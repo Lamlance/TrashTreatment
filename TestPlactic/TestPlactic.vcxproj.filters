@@ -30,9 +30,6 @@
     <ClInclude Include="Trash.h">
       <Filter>Source Files\Trash</Filter>
     </ClInclude>
-    <ClInclude Include="Trash_PET.h">
-      <Filter>Source Files\Trash</Filter>
-    </ClInclude>
     <ClInclude Include="TrashTreatment.h">
       <Filter>Source Files\Treatment</Filter>
     </ClInclude>

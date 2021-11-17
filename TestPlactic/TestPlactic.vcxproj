@@ -144,7 +144,6 @@
     <ClInclude Include="GUI.h" />
     <ClInclude Include="Trash.h" />
     <ClInclude Include="TrashTreatment.h" />
-    <ClInclude Include="Trash_PET.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BiologicalTreatment.cpp" />

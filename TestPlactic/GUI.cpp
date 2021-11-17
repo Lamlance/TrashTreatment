@@ -111,7 +111,7 @@ void option() {
     std::cout << "Every plastic product has a number of type plastic: \n[1]: PET/PETE\n[2]: HDPE\n[3]: PVC\n[4]: LDPE\n[5]: PP\n[6]: PS\n[7]: Other\n";
     std::cout << "Put the number of plastic here, we will show you the way it should be treated ([0] to stop): \n";
     int option = 0;
-    Trash* trash;
+    PlasticTrash* trash;
     do {
         std::cin >> option;
         if (option == 0) break;
@@ -119,7 +119,7 @@ void option() {
             std::cout << "Wrong input (from 1->7 only)\n";
             std::cin >> option;
         }
-        trash = new Trash(option, 0);
+        trash = new PlasticTrash(option, 0);
         trash->treatTrash();
         std::cout << "Any other plastic type: ";
         delete trash;
