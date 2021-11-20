@@ -109,7 +109,7 @@ void cls(HANDLE hConsole)
 void option() {
     std::cout << "It's time to clean up your bin and have environmental protection measures in the process of waste treatment\n";
     std::cout << "Every plastic product has a number of type plastic: \n[1]: PET/PETE\n[2]: HDPE\n[3]: PVC\n[4]: LDPE\n[5]: PP\n[6]: PS\n[7]: Other\n";
-    std::cout << "Put the number of plastic here, we will show you the way it should be treated ([0] to stop): \n";
+    std::cout << "Put the number of plastic here, we will show you the way it should be treated ([0] to stop): ";
     int option = 0;
     PlasticTrash* trash;
     do {

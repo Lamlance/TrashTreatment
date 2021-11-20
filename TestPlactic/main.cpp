@@ -1,8 +1,8 @@
-﻿#include "PlasticTrash.h"
+﻿//#include "PlasticTrash.h"
 #include "GUI.h"
-void cls(HANDLE hConsole);
-void print_tittle(HANDLE h);
-void introduce_group(HANDLE h);
+//void cls(HANDLE hConsole);
+//void print_tittle(HANDLE h);
+//void introduce_group(HANDLE h);
 int main()
 {
 	SetConsoleOutputCP(CP_UTF8);

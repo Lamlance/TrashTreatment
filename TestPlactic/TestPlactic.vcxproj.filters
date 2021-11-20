@@ -24,37 +24,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChemicalTreatment.h">
-      <Filter>Source Files\Treatment</Filter>
-    </ClInclude>
-    <ClInclude Include="PlasticTrash.h">
-      <Filter>Source Files\Trash</Filter>
-    </ClInclude>
-    <ClInclude Include="TrashTreatment.h">
-      <Filter>Source Files\Treatment</Filter>
-    </ClInclude>
-    <ClInclude Include="BiologicalTreatment.h">
-      <Filter>Source Files\Treatment</Filter>
-    </ClInclude>
     <ClInclude Include="GUI.h">
       <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Trash\PlasticTrash.h">
+      <Filter>Source Files\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasticTreatment\BiologicalTreatment.h">
+      <Filter>Source Files\Treatment</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasticTreatment\ChemicalTreatment.h">
+      <Filter>Source Files\Treatment</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasticTreatment\TrashTreatment.h">
+      <Filter>Source Files\Treatment</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PlasticTrash.cpp">
-      <Filter>Source Files\Trash</Filter>
-    </ClCompile>
-    <ClCompile Include="ChemicalTreatment.cpp">
-      <Filter>Source Files\Treatment</Filter>
-    </ClCompile>
-    <ClCompile Include="BiologicalTreatment.cpp">
-      <Filter>Source Files\Treatment</Filter>
-    </ClCompile>
     <ClCompile Include="GUI.cpp">
       <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Trash\PlasticTrash.cpp">
+      <Filter>Source Files\Trash</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasticTreatment\BiologicalTreatment.cpp">
+      <Filter>Source Files\Treatment</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasticTreatment\ChemicalTreatment.cpp">
+      <Filter>Source Files\Treatment</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

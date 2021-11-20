@@ -1,9 +1,9 @@
 #pragma once
 #ifndef PLASTIC_TRASH_H
 #define PLASTIC_TRASH_H
-#include "TrashTreatment.h"
-#include "BiologicalTreatment.h"
-#include "ChemicalTreatment.h"
+#include "../PlasticTreatment/TrashTreatment.h"
+#include "../PlasticTreatment/BiologicalTreatment.h"
+#include "../PlasticTreatment/ChemicalTreatment.h"
 #include <string>
 
 enum class TreatmentType: int

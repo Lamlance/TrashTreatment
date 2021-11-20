@@ -139,18 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BiologicalTreatment.h" />
-    <ClInclude Include="ChemicalTreatment.h" />
     <ClInclude Include="GUI.h" />
-    <ClInclude Include="PlasticTrash.h" />
-    <ClInclude Include="TrashTreatment.h" />
+    <ClInclude Include="PlasticTreatment\BiologicalTreatment.h" />
+    <ClInclude Include="PlasticTreatment\ChemicalTreatment.h" />
+    <ClInclude Include="PlasticTreatment\TrashTreatment.h" />
+    <ClInclude Include="Trash\PlasticTrash.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BiologicalTreatment.cpp" />
-    <ClCompile Include="ChemicalTreatment.cpp" />
     <ClCompile Include="GUI.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="PlasticTrash.cpp" />
+    <ClCompile Include="PlasticTreatment\BiologicalTreatment.cpp" />
+    <ClCompile Include="PlasticTreatment\ChemicalTreatment.cpp" />
+    <ClCompile Include="Trash\PlasticTrash.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
