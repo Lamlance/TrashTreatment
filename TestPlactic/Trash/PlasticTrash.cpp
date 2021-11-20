@@ -1,6 +1,6 @@
 #include "PlasticTrash.h"
-PlasticTrash::PlasticTrash(int recycleNumber, int weightVal) :
-	number(static_cast<Recycle_Number>(recycleNumber)), weight(weightVal), treatment(nullptr) {};
+PlasticTrash::PlasticTrash(int recycleNumber, int weightVal) : Trash(weightVal),
+	number(static_cast<Recycle_Number>(recycleNumber)), treatment(nullptr) {};
 
 void PlasticTrash::treatTrash()
 {

@@ -39,6 +39,9 @@
     <ClInclude Include="PlasticTreatment\TrashTreatment.h">
       <Filter>Source Files\Treatment</Filter>
     </ClInclude>
+    <ClInclude Include="Trash\Trash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

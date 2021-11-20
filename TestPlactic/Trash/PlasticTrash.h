@@ -4,6 +4,7 @@
 #include "../PlasticTreatment/TrashTreatment.h"
 #include "../PlasticTreatment/BiologicalTreatment.h"
 #include "../PlasticTreatment/ChemicalTreatment.h"
+#include "Trash.h"
 #include <string>
 
 enum class TreatmentType: int
@@ -11,16 +12,15 @@ enum class TreatmentType: int
 	ChemTreatment = 1,BioTreatment 
 };
 
-class PlasticTrash
+class PlasticTrash:public Trash
 {
 public:
-	PlasticTrash(int recycleNumber = 7, int weightVal = 0);
+	PlasticTrash(int recycleNumber = 7,int weightVal = 1);
 	virtual std::string getPlastic_name() { return "YOU:))"; };
 	void treatTrash();
 private:
 	TrashTreatment* treatment;
 	std::string ansTreatment;
-	int weight;
 	Recycle_Number number;
 };
 
