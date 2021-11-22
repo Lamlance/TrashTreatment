@@ -16,7 +16,6 @@ class PlasticTrash:public Trash
 {
 public:
 	PlasticTrash(int recycleNumber = 7,int weightVal = 1);
-	virtual std::string getPlastic_name() { return "YOU:))"; };
 	void treatTrash();
 private:
 	TrashTreatment* treatment;

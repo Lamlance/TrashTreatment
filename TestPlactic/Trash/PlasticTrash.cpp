@@ -1,7 +1,6 @@
 #include "PlasticTrash.h"
 PlasticTrash::PlasticTrash(int recycleNumber, int weightVal) : Trash(weightVal),
 	number(static_cast<Recycle_Number>(recycleNumber)), treatment(nullptr) {};
-
 void PlasticTrash::treatTrash()
 {
 	TreatmentType type = TreatmentType::ChemTreatment;
@@ -12,9 +11,7 @@ void PlasticTrash::treatTrash()
 	std::cout << " [2] Biological treatment \n";
 	std::cout << "Enter number: ";
 	std::cin >> cmd;
-
 	type = static_cast<TreatmentType>(cmd);
-
 	switch (type)
 	{
 	case TreatmentType::ChemTreatment:
@@ -33,8 +30,6 @@ void PlasticTrash::treatTrash()
 	}
 		break;
 	}
-
 	treatment->TreatTrash(this->number);
-
 }
 
